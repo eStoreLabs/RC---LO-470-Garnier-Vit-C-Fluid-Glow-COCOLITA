@@ -652,7 +652,7 @@ body {
   background: #c64a4a;
   width: 30%;
   display: block;
-  margin-right: 12%;
+  margin-right: 15%;
   margin-left: auto;
 }
 #es-garnier.es-garnier .es-ingredients__text span {
@@ -1651,6 +1651,7 @@ body {
     flex-direction: row;
     align-items: center;
     position: relative;
+    padding-top: 75px;
   }
 
   #es-garnier.es-garnier .es-color::after {
@@ -1832,15 +1833,17 @@ body {
       font-size: 16px;
     }
     #es-garnier.es-garnier .es-color__right-image {
-      max-width: 100%;
+      max-width: 60%;
       width: 100%;
+      margin-left: 200px;
+      margin-top: -50px;
     }
     #es-garnier.es-garnier .es-color__pseudo {
       max-width: 1150px;
     }
 
     #es-garnier.es-garnier .es-color::after {
-      height: 340px;
+      height: 200px;
     }
 
     #es-garnier.es-garnier .es-color__left {
